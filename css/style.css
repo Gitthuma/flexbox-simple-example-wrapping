@@ -29,7 +29,10 @@ article {
 section {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
 
 article {
+  flex: 200px;
 }
